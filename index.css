@@ -1,0 +1,48 @@
+body{
+	margin: 0;
+	background-image: url("arduino.jpg");
+	background-position: center;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 80vh;
+}
+.container{
+	background: burlywood;
+	padding: 20px;
+	width: 8px;
+	width: 300px;
+	text-align: center;
+	border-radius: 6px;
+	text-align: center;
+}
+input{
+	padding: 6px;
+	margin-right: 8px;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+button{
+	padding: 8px 10px;
+	background: indianred;
+	color: black;
+	border: none;
+	border-radius: 2px;
+	cursor: pointer;
+}
+ul{
+	list-style: none;
+	padding: 0;
+}
+li{
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	padding: 7px;
+}
+.complete{
+	text-decoration: line-through;
+	color: blue;
+
+}
